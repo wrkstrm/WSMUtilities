@@ -7,9 +7,12 @@
 
 ## Usage
 
-To run the example project, clone the repo, and run `pod install` from the Example directory first.
+I usually just include the library in my pch file as I use these categories everywhere.
+
 
 ## Requirements
+
+iOS 7
 
 ## Installation
 

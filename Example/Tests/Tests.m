@@ -8,18 +8,13 @@
 
 SpecBegin(InitialSpecs)
 
-describe(@"these will fail", ^{
-
+describe(@"these will fail... wait no, pass", ^{
     it(@"can do maths", ^{
-        expect(1).to.equal(2);
+        expect(1).to.equal(1);
     });
 
     it(@"can read", ^{
-        expect(@"number").to.equal(@"string");
-    });
-    
-    it(@"will wait and fail", ^AsyncBlock {
-        
+        expect(@"number").to.equal(@"number");
     });
 });
 
