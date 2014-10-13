@@ -9,16 +9,15 @@
 
 Pod::Spec.new do |s|
   s.name             = "WSMUtilities"
-  s.version          = "0.0.1"
+  s.version          = "0.0.2"
   s.summary          = "The accumulation of my experience with ObjC."
   s.description      = <<-DESC
                        A grab bag of Classes and Categories I can't live without.
                        DESC
   s.homepage         = "https://github.com/wrkstrm/WSMUtilities"
-  # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
   s.license          = 'MIT'
   s.author           = { "Cristian Monterroza" => "cmonterroza@wrkstrm.me" }
-  s.source           = { git: "https://github.com/wrkstrm/WSMUtilities.git", tag: s.version.to_s }
+  s.source           = { :git => "https://github.com/wrkstrm/WSMUtilities.git", :tag => s.version.to_s }
   s.social_media_url = 'https://twitter.com/wrkstrm'
 
   s.platform     = :ios, '7.0'
@@ -29,7 +28,5 @@ Pod::Spec.new do |s|
     'WSMUtilities' => ['Pod/Assets/*.png']
   }
 
-  s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  s.frameworks = 'UIKit'
 end
