@@ -1,7 +1,7 @@
 PODS:
   - Expecta (0.3.1)
   - Specta (0.2.1)
-  - WSMUtilities (0.0.1)
+  - WSMUtilities (0.0.3)
 
 DEPENDENCIES:
   - Expecta
@@ -15,6 +15,6 @@ EXTERNAL SOURCES:
 SPEC CHECKSUMS:
   Expecta: 03aabd0a89d8dea843baecb19a7fd7466a69a31d
   Specta: 9141310f46b1f68b676650ff2854e1ed0b74163a
-  WSMUtilities: ba7894420feb50e887c77f8fa9691025bc51afab
+  WSMUtilities: 4f384b30e22abb0eafddce967f4d74e246ca5c6d
 
 COCOAPODS: 0.34.2
