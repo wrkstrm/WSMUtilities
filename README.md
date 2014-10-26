@@ -20,6 +20,11 @@ The method takes 2 parameters.
 
 Color class for simplified color making and arrays of colors for tableviews.
 
+
+###NSMutableArray+WSMUtilties
+
+- Added method to remove a random object out of the array.
+
 ## Usage
 
 Although, this library does not take along time to install, I include the library in my .pch file as I use these categories everywhere.
