@@ -5,25 +5,41 @@
 [![License](https://img.shields.io/cocoapods/l/WSMUtilities.svg?style=flat)](http://cocoadocs.org/docsets/WSMUtilities)
 [![Platform](https://img.shields.io/cocoapods/p/WSMUtilities.svg?style=flat)](http://cocoadocs.org/docsets/WSMUtilities)
 
-#Included categories
+A bundle of ObjC joy! Read below to get a hint of all the awesome.
+
+----
+###WSMMacros
+
+A collection of helpful c macros.
+
+- Singleton-in-a-macro. For the times when you really need a singleton and you want to declare it with one line of code.
+
+- Lazy instation in a macro. Now you can do 1 line lazy property instantiation.
+
+----
 
 ###WSMNanoTimer
 
 NSObject category that allows code execution timing at the nanosecond scale with 1 line of code.
 
-The method takes 2 parameters.
+- The method takes 2 parameters:
+  - The number of decimal places of accuracy you want up to the nanosecond (Up to 9 places).
+  - The block of code that you want to measure.
 
-- The number of decimal places of accuracy you want up to the nanosecond (Up to 9 places).
-- The block of code that you want to measure.
+----
 
 ###WSMColorPalette
 
-Color class for simplified color making and arrays of colors for tableviews.
+- Color class for simplified color making and arrays of colors for tableviews.
 
+----
 
 ###NSMutableArray+WSMUtilties
 
+
 - Added method to remove a random object out of the array.
+
+----
 
 ## Usage
 
