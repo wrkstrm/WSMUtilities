@@ -137,11 +137,6 @@
   return [NSString stringWithFormat:@"-[%@ %@]", specName, exampleName];
 }
 
-- (void)recordFailureWithDescription:(NSString *)description inFile:(NSString *)filename atLine:(NSUInteger)lineNumber expected:(BOOL)expected {
-  SPTXCTestCase *currentTestCase = SPTCurrentTestCase;
-  [currentTestCase.spt_run recordFailureInTest:currentTestCase withDescription:description inFile:filename atLine:lineNumber expected:expected];
-}
-
 - (void)performTest:(XCTestRun *)run {
   self.spt_run = (XCTestCaseRun *)run;
   [super performTest:run];
