@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
                        DESC
   s.homepage         = "https://github.com/wrkstrm/WSMUtilities"
   s.license          = 'MIT'
-  s.author           = { "Cristian Monterroza" => "cmonterroza@wrkstrm.me" }
+  s.author           = { "wrkstrm" => "cmonterroza@wrkstrm.me" }
   s.source           = { :git => "https://github.com/wrkstrm/WSMUtilities.git", :tag => s.version.to_s }
   s.social_media_url = 'https://twitter.com/wrkstrm'
 
