@@ -9,7 +9,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "WSMUtilities"
-  s.version          = "0.0.4"
+  s.version          = "0.0.6"
   s.summary          = "Handy Objective C Utilities."
   s.description      = <<-DESC
                        A grab bag of Classes and Categories I can't live without.
