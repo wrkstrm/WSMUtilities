@@ -21,7 +21,7 @@ typedef NS_ENUM(NSUInteger, WSMAgendaType) {
     kWSMAgendaTypeSocial,
     kWSMAgendaTypeExercise,
     kWSMAgendaTypeDeadTime,
-} WSAgendaType;
+};
 
 typedef NS_ENUM(NSUInteger, WSMColorGradient) {
     kWSMGradientUncategorized = 0,
@@ -32,9 +32,9 @@ typedef NS_ENUM(NSUInteger, WSMColorGradient) {
 	kWSMGradientBlack,
 };
 
-@interface WSMColorPalette : NSObject
+extern SKColor* SKColorMakeRGB(CGFloat red, CGFloat green, CGFloat blue);
 
-SKColor* SKColorMakeRGB(CGFloat red, CGFloat green, CGFloat blue);
+@interface WSMColorPalette : NSObject
 
 + (SKColor *)colorForAgenda:(WSMAgendaType)agendaConstant forIndex:(NSInteger)index ofCount:(NSInteger)count reversed:(BOOL) reversed;
 

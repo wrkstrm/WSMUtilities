@@ -8,16 +8,15 @@
 
 #import "WSMColorPalette.h"
 
-@implementation WSMColorPalette
-
 SKColor *SKColorMakeRGB(CGFloat red, CGFloat green, CGFloat blue) {
 #if TARGET_OS_IPHONE
-	return [SKColor colorWithRed:red / 255.0f green:green / 255.0f blue:blue / 255.0f alpha:1.0f];
+    return [UIColor colorWithRed:red / 255.0f green:green / 255.0f blue:blue / 255.0f alpha:1.0f];
 #else
-    return [NSColor cal]
+    return [NSColor colorWithRed:red / 255.0f green:green / 255.0f blue:blue / 255.0f alpha:1.0f];
 #endif
-
 }
+
+@implementation WSMColorPalette
 
 + (SKColor *)colorForAgenda:(WSMAgendaType)agendaConstant forIndex:(NSInteger)index
                     ofCount:(NSInteger)count reversed:(BOOL)reversed {
